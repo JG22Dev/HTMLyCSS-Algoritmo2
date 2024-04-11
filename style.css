@@ -1,0 +1,193 @@
+/*IMPORTACION DE GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind:wght@500&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    background-color: #ededed;
+}
+/*Encabezado*/
+header{
+    position:static;
+    text-align: center;
+    justify-content: space-between;
+    height: 8%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #ededed;
+    width: 100%;
+    
+}
+header nav a{
+    margin-right: 15px;
+    text-decoration: none; 
+    color: black;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+header nav a:hover{
+    color: #283b90;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align:center;
+    justify-content: center;
+}
+li{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*Cuerpo de pagina*/
+
+main{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+}
+.p2{
+    color: rgb(12, 117, 80);
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+
+.image_1 {
+    width: 15%; 
+    height: 20%;
+    opacity: 0.8;
+}
+.image_2{
+    width: 50%;
+    height: 60%;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+.image_3{
+    width: 15%; 
+    height: 20%;
+    opacity: 0.8;
+}
+
+h2{
+    margin-top: 5%;
+}
+
+.parrafo-centrado{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+}
+
+
+.tabla{
+    display: flex;
+    place-content: center;
+    text-align: start;
+    margin: 15px;
+    padding: 15px; 
+}
+
+tbody{
+    border: 1px solid #ededed;
+    padding: 15px;  
+}
+th ,td {
+    text-align: start;
+}
+
+
+
+
+form{
+    width: 70%;
+    max-width: 600px;
+    margin: 4%;
+    padding: 3%;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter:blur(10px);
+    box-shadow: 5px 1px 20px rgba(rgba(126, 105, 105, 0.301), green, blue, alpha);
+    background-color: aliceblue;
+}
+
+#formGrup{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 2%;
+    padding: 1%;
+}
+#name, #email, #number{
+    height: 30px;
+}
+label{
+    margin: 1%;
+}
+form p{
+    margin: 1px;
+    padding: 1%;
+    padding-bottom: 5px;
+    text-align: left;
+}
+input{
+    border-radius: 5px;
+    border: none;    
+}
+
+select{
+    height: 30px;
+    border-radius: 5px;
+    border: none;    
+    font-weight:400;
+}
+button {
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(61, 255, 47, 0.456);
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    margin: 5%;
+
+}
+#submit{
+    width: 100%;
+    margin: 0;
+}
+button:hover{
+    color: rgba(10, 102, 3, 0.926);
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+/*Pie de pagina*/
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #ededed;
+}

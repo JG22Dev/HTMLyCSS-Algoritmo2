@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link css-->
+    <link rel="stylesheet" href="style.css">
+    <title>Informacion y Contacto</title>
+</head>
+<body>
+    <!--ENCABEZADO DE LA PAGINA-->
+    <header>
+        <!--LISTA DESORDENADA-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index_2.html">Contacto</a></li>
+                <li><a href="https://jg22dev.github.io/JuegoEnJs/" target="_blank">Juego de adivinanza</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--CUERPO DE PAGINA-->
+    <main>
+        <h1>¿ADIVINASTE EL NUMERO?</h1>
+        <img class="image_3" src="images/85241875a63f7e765f0881e2b1fd44ce.png" alt="imagen">
+        <p>¿Querés más información?</p>
+        <form action="">
+            <form action="" id="survey-form">
+                <div id="formGrup">
+                    <label for="nombre" id="name-label">Nombre Completo</label>
+                    <input type="text" required  id="name" placeholder="  Ingresa tu nombre completo">
+                </div>
+                <div id="formGrup">
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" required id="email" placeholder="    abcde@mail.com">
+                </div>
+                <div id="formGrup">
+                    <label for="edad" id="number-label">Edad</label>
+                    <input type="number" id="number" min="5" max="100" placeholder="   Edad">
+                </div>
+                <div id="formGrup">
+                    <p>¿Te gustó el juego?</p>
+                    <select name="Que te gusta mas" id="dropdown">
+                        <option value="frontEnd">Si</option>
+                        <option value="backEnd"> No</option>
+                        <option value="nose"> No lo use</option>
+                    </select>    
+                </div>
+                <div id="formGrup">
+                    <p>¿Recomendarias el juego a otras personas?</p>
+                    <label>
+                        <input name="recomendar" type="radio" value="si">
+                        Si
+                    </label>
+                    <label>
+                        <input name="recomendar" type="radio" value="no">
+                        No
+                    </label>
+                    <label>
+                        <input name="recomendar" type="radio" value="puedeSer">
+                        Puede ser
+                    </label>
+                </div>
+                <div id="formGrup">
+                <p>Si tiene algun comentario</p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese Comentario aquí"></textarea>
+                </div>
+                <button  type="submit" id="submit">Submit</button>  
+            </form>
+        </form>
+        <button><a href="index.html">Volver a Inicio</a></button>
+    </main>
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p>Code by <a href="https://github.com/JG22Dev" target="_blank">JG22Dev</a></p>
+    </footer>
+</body>
+</html>
